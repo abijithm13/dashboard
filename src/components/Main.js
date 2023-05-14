@@ -1,5 +1,8 @@
 import React from 'react';
 import { FaRegCalendarMinus } from 'react-icons/fa';
+import Charts from "./Charts";
+
+
 
 
 
@@ -45,6 +48,14 @@ const Main = () => {
     </div>
     <FaRegCalendarMinus fontSize={28} color=""/>
 </div>
+
+<div className='basis-[70%] border bg-white shadow-md cursor-pointer rounded-[4px]'>
+    <div  >
+    <Charts/>
+    </div>
+</div>
+
+
 
  </div>
 </div>
